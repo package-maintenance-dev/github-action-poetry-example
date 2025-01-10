@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "example_project"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+# --- Web Framework (Flask) ---
+Flask = "^2.2"
+
+# --- Kafka ---
+confluent-kafka = "^2.2"
+
+# --- JSON (orjson) ---
+orjson = "^3.8"
+
+# --- Elasticsearch ---
+elasticsearch = "^8.9"
+
+# --- PostgreSQL ---
+psycopg2 = "^2.9"
+
+# --- JWT ---
+PyJWT = "^2.8"
+
+# --- Telemetry (OpenTelemetry) ---
+opentelemetry-api = "^1.16"
+opentelemetry-sdk = "^1.16"
+# If you need instrumentation for Flask, you can add:
+# opentelemetry-instrumentation-flask = "^0.41b0"
+
+# --- AWS S3 SDK ---
+boto3 = "^1.28"
+
+# --- Functional Programming Utilities ---
+returns = "^0.18"
+
+# --- Additional Utility Libraries ---
+requests = "^2.31"
+pydantic = "^1.10"
+python-dotenv = "^1.0"
+toolz = "^0.12"
+arrow = "^1.2"
+rich = "^13.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4"
+pytest-mock = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+# --- Formatter ---
+black = "^23.1"
+
+# --- Linter ---
+flake8 = "^6.1"
+isort = "^5.12"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
