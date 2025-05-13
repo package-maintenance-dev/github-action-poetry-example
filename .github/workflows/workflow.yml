@@ -1,4 +1,4 @@
-name: build
+name: find_unmaintained_packages
 on:
   workflow_dispatch
 
