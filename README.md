@@ -1,0 +1,1 @@
+[![find_unmaintained_packages](https://github.com/package-maintenance-dev/github-action-poetry-example/actions/workflows/workflow.yml/badge.svg)](https://github.com/package-maintenance-dev/github-action-poetry-example/actions/workflows/workflow.yml)
